@@ -63,6 +63,7 @@ struct SampleView: View {
         .alert("Hello alert!", isPresented: $isAlertShown) {
             Button("Delete", role: .destructive) { }
             Button("Cancel", role: .cancel) { }
+            Button("Another", role: .none) { }
         } message: {
             Text("Hello alert! Hello alert! Hello alert! Hello alert! Hello alert! Hello alert! Hello alert! Hello alert! Hello alert!")
         }
